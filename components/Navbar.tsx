@@ -106,7 +106,7 @@ const Navbar = () => {
                 <UserButton afterSignOutUrl="/sign-in" />
               ) : (
                 <Link href="/sign-in">
-                  <CircleUserRound />
+                  <CircleUserRound size={35} />
                 </Link>
               )}
             </div>
@@ -160,7 +160,7 @@ const Navbar = () => {
             <UserButton afterSignOutUrl="/sign-in" />
           ) : (
             <Link href="/sign-in">
-              <CircleUserRound />
+              <CircleUserRound size={35} />
             </Link>
           )}
         </div>
