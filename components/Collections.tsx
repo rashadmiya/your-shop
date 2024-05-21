@@ -14,8 +14,9 @@ const Collections = async () => {
         <div className="flex flex-wrap items-center justify-center gap-8">
           {collections.map((collection: CollectionType) => (
             <Link href={`/collections/${collection._id}`} key={collection._id}
-              className="relative">
-              <div className="flex shadow-lg p-2">
+            className="shadow-lg p-2 w-[90%] min-h-[60px] mx-auto sm:w-[220px]"
+            >
+              <div className="flex">
                 <div className="w-[100%] my-auto px-2">
                   <p className="capitalize">{collection.title}</p>
                 </div>

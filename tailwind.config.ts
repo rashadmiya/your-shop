@@ -92,6 +92,13 @@ const config: Config = {
         "grey-1": "#F7F7F7",
         "grey-2": "#8A8A8A",
       },
+      screens: {
+        "1000px": "1050px",
+        "1100px": "1110px",
+        "800px": "800px",
+        "1300px": "1300px",
+        "400px":"400px"
+      },
     },
   },
   plugins: [require("tailwind-scrollbar-hide")],
